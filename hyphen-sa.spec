@@ -2,7 +2,7 @@ Name: hyphen-sa
 Summary: Sanskrit hyphenation rules
 %define upstreamid 20110915
 Version: 0.%{upstreamid}
-Release: 4%{?dist}
+Release: 5%{?dist}
 #? in a url causes trouble
 #http://tug.org/svn/texhyphen/trunk/hyph-utf8/tex/generic/hyph-utf8/patterns/tex/hyph-sa.tex?view=co
 Source: hyph-sa.tex
@@ -44,6 +44,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/hyphen/hyph_sa_IN.dic
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.20110915-5
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.20110915-4
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
